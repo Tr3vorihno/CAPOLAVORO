@@ -2,6 +2,7 @@ div{
     margin: auto;
     width: 50%;
     border: 3px solid green;
+    background-color: lightblue;
     padding: 10px;
   }
 

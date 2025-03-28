@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/font/GoogleSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 div{
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid rgb(0, 0, 0);
     background-color: lightblue;
     padding: 10px;
-  }
-
-  
+    text-align: center;
+}
+input[type="text"]{
+  margin: 8px 0;
+  border-color: black;
+}
+input[type="password"]{
+  margin: 8px 0;
+  border-color: black;
+}

@@ -10,14 +10,14 @@
 <body>
     <div class="div_esterno">
         <div class="div_titolo">
-        Eseguire il login
-        </div>
+        <b>Eseguire il login</b>
+        </div><br>
         <div class="div_interno">
         <form action="login.html" method="post">
-            <label for="username">Username:</label>
+            <label for="username"><b>Username:</b></label>
             <input type="text" id="username" name="username" required class="login">
             <br><br>
-            <label for="password">Password:</label>
+            <label for="password"><b>Password:</b></label>
             <input type="password" id="password" name="password" required class="login">
             <br><br>
             <input type="submit" value="Login">

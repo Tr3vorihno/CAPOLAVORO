@@ -5,13 +5,19 @@
   font-style: normal;
 }*/
 
-input[type="text"]{
-  margin: 8px 0;
-  border-color: black;
+
+.login{
+  background-color: white; 
+  color: white; 
+  font-size: xx-small; 
+  padding: 6px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  border: 2px solid black;
 }
-input[type="password"]{
-  margin: 8px 0;
-  border-color: black;
+.login:hover{
+  background-color: #CECECE; 
 }
 body{
   font-family: 'deh';
@@ -53,4 +59,8 @@ input[type="submit"]{
 }
 input[type="submit"]:hover {
   background-color: #3F4F44; /* Darker green when hovering */
+}
+
+.div_titolo{
+  padding: 5px 15px;
 }

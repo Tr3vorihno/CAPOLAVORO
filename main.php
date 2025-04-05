@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="div_esterno">
-    Eseguire il login
+        <div class="div_titolo">
+        Eseguire il login
+        </div>
         <div class="div_interno">
         <form action="login.html" method="post">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" name="username" required class="login">
             <br><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" required class="login">
             <br><br>
             <input type="submit" value="Login">
         </form>

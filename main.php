@@ -7,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        Eseguire il login
+    <div class="div_esterno">
+    Eseguire il login
+        <div class="div_interno">
         <form action="login.html" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -18,7 +19,7 @@
             <br><br>
             <input type="submit" value="Login">
         </form>
+        </div>
     </div>
-   
 </body>
 </html>

@@ -1,18 +1,10 @@
-@font-face {
+/*@font-face {
   font-family: 'deh';
   src: url('/font/GoogleSans-Regular.ttf');
   font-weight: normal;
   font-style: normal;
-}
-.div_esterno{
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: lightblue;
-    padding: 10px;
-    text-align: center;
-    
-}
+}*/
+
 input[type="text"]{
   margin: 8px 0;
   border-color: black;
@@ -27,10 +19,38 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color : #DCD7C9;
+  font-family: 'Roboto', sans-serif;
 }
 
 .div_interno{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color : #A27B5C;
+  /* border: 1px solid black; */
+  width: fit-content;
+}
+.div_esterno{
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  background-color : #A27B5C;
+  width: fit-content;
+}
+input[type="submit"]{
+  background-color: #2C3930; /* Green background */
+  color: white; /* White text */
+  font-size: 16px; /* Font size */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background-color */
+}
+input[type="submit"]:hover {
+  background-color: #3F4F44; /* Darker green when hovering */
 }
